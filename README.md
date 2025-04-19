@@ -12,3 +12,17 @@ The searches can be done in two main forms:
  - Time Series Comparision : A filter is applied to chosen stats to analyze to create an interpretable time series eg rolling sum from a 10 game window, then the time series shape is compared to other players to find n most similar players
      - there is both DTW and motif searching with the stumpy library
      - only works for comparing 1 stat at a time but plans to make it multivariate are in the works
+
+Filters
+ - search dates
+ - base player dates
+ - stats to compare
+ - weights per stat
+ - Cumulative or time series
+ - Number of Similar players to return
+ - Base player to compare to
+
+# How to Run
+ - Fork repo
+ - cd in to the root of the repo
+ - run python -m streamlit run playerSearch.py
